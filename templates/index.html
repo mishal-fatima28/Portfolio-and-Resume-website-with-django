@@ -1,0 +1,2124 @@
+{% load static %}
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ==== Document Title ==== -->
+    <title>Dr. Shams Ul Haq Physiotherapist</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="{% static 'img/logo.png' %}" type="image/png">
+
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Condensed:300,400,700">
+    
+    <!-- ==== Plugins Bundle ==== -->
+    <link rel="stylesheet" href="{% static 'css/plugins.min.css' %}">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/responsive-style.css' %}">
+    
+    <!-- ==== Color Scheme Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/colors/color-11.css' id='changeColorScheme' %}">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body data-spy="scroll" data-target="#headerNav" data-offset="100">
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="bg-primary">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header id="header" class="header--section">
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- Logo Start -->
+                        <a href="index.html" class="navbar-brand">
+                            <span class="vc--parent">
+                                <span class="vc--child">
+                                    <img src="{% static 'img/logo.png' %}" alt="">
+                                </span>
+                            </span>
+                        </a>
+                        <!-- Logo End -->
+                    </div>
+
+                    <div id="headerNav" class="navbar-collapse collapse">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links ff--primary nav navbar-right">
+                            <li class="active"><a href="#header" data-trigger="scroll">Home</a></li>
+                            <li><a href="#aboutme" data-trigger="scroll">About Me</a></li>
+                            <li><a href="#services" data-trigger="scroll">Services</a></li>
+                                <li><a href="#portfolio" data-trigger="scroll">Portfolio</a></li>
+                            <li><a href="#contact" data-trigger="scroll">Contact</a></li>
+                           
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Banner Section Start --> 
+
+
+        <section   id="banner" class="banner--section" data-bg-parallax="">
+            <video loop autoplay muted controls style="object-fit: cover; width: 100%; height: 100vh; position: absolute; top: 0; right: 0;"  id="bgvid">
+  
+  <source src="{% static 'img/shams2.mp4' %}" type="video/mp4">
+</video>
+       
+
+          
+            <div  data-overlay="0.75" class="vc--parent">
+                <div class="vc--child">
+                    <div class="container">
+                        
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                
+             
+                                <!-- Banner Content Start -->
+                                <div class="banner--content text-center pt--160 pb--100">
+                                    <div class="title text-uppercase">
+                                        <h2 class="h3 text-white"><span class="text-primary">Hello</span> I'm</h2>
+                                    </div>
+
+                                    <div class="name text-uppercase">
+                                        <h3 class="h2 text-white">Dr. Shams Ul Haq</h3>
+                                    </div>
+
+                                    <div  class="role fs--18 fw--700 text-white">
+                                        
+                                        <p> Physiotherapist and Teacher Trainer</p>
+                                        
+                                    </div>
+
+                                    <div class="desc">
+                                        <p style="font-size: 15px;">I am a certified physiotherapist currently working as CEO at Lahore Physiotherapy and Rehab clinic. In addition to this, I am working as Teacher Trainer to the most renowned secondary and higher secondary institutes.</p>
+                                    </div>
+
+                                    <div class="action">
+                                        <a href="https://calendly.com/drshamsulhaqphysio" class="btn btn-default">Hire Me</a>
+                                        <a href="{% url 'shams-portfolio' %}" class="btn btn-white">My Works</a>
+                                    </div>
+                                </div>
+                                <!-- Banner Content End -->
+                  
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Section End -->
+
+        
+        <!-- About Section Start -->
+        <section id="aboutme" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">About Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row row--md-vc">
+                    <div class="col-md-6 pb--60">
+                        <!-- Image Block Start -->
+                        <div class="img--block">
+                            <img src="{% static 'img/about-img/about3.jpg' %}" alt="">
+                        </div>
+                        <!-- Image Block End -->
+                    </div>
+                    
+                    <div class="col-md-6 pb--60">
+                        <!-- About Block Start -->
+                        <div class="about--block">
+                            <div class="title">
+                                <h2 class="h4 fw--700 text-uppercase">Personal Details</h2>
+                            </div>
+
+                            <div class="details pt--30 text-dark">
+                                <p> I am a dynamic professional with a unique vision for the future. My professional
+                                    qualifications include a bachelor’s degree in Doctor of Physiotherapy from University of
+                                    South Asia and BS English from University of Punjab. As the CEO of Lahore Physiotherapy
+                                    and Rehabilitation Clinic I possess excellent leadership skills. A large number of patients
+                                    have benefited from my unique treatment regime based on the principles of empathy and
+                                    adopting latest clinical guidelines.</p>
+                            </div>
+
+                            <div class="details pt--30 text-dark">
+                                <p> My professional engagements also include teaching
+                                    biology to high school students in some of the top educational institutes of the country. My
+                                    students have produced astounding results in board examinations. I have provided my best & leading services regarding biology course selection, as a member to Punjab Curriculum text book board. I have also led teacher training initiatives at many elite educational systems. These training programs have enabled a large number of teachers to improve their teaching and communication skills. Teachers all
+                                    over Pakistan have ranked my training programs at the top for the past many years which
+                                    speaks volumes about the popularity of these programs.</p>
+                            </div>
+
+                            <div class="info pt--50">
+                                <table class="ff--primary">
+                                    <tbody>
+                                        
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-phone"></i>
+                                                <span>Phone</span>
+                                            </th>
+                                            <td><a href="tel:+123123123456" class="btn-link">+92 321 8451888</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-envelope"></i>
+                                                <span>Email</span>
+                                            </th>
+                                            <td><a href="mailto:john@example.com" class="btn-link">info@drshamsulhaq.com</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-globe"></i>
+                                                <span>Website</span>
+                                            </th>
+                                            <td><a href="www.johndoe.com" class="btn-link">www.drshamsulhaq.com</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="social text-dark pt--30">
+                                <ul class="nav">
+                                    <li><a href="https://web.facebook.com/shams.ulhaq.581"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/shamsul16947524"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.instagram.com/dr_shams_physio/"><span class="fa fa-instagram"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/dr-shams-ul-haq-physiotherapist-01405619b"><span class="fa fa-linkedin"></span></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="action pt--60">
+                                <a href="https://calendly.com/drshamsulhaqphysio" class="btn btn-default">Schedule Meeting</a>
+                            </div>
+                        </div>
+                        <!-- About Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Services Section Start -->
+        <section id="services" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Services I Offer</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                            <a class="servicess" href="{% url 'physiotherapy' %}">
+                        <div class="service--block">
+                             <div class="icon">
+                                <img style="padding: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMyA1MTMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxsaW5lYXJHcmFkaWVudCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJsZzEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAiIHgyPSI1MTMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bGluazpocmVmPSIjbGcxIiB5MT0iNDY5IiB5Mj0iNDY5Ij48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwIiB4Mj0iMTExIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeGxpbms6aHJlZj0iI2xnMSIgeTE9IjM0Ni41IiB5Mj0iMzQ2LjUiPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjM5OC4zODgiIHgyPSI0NDQuMzkxIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeGxpbms6aHJlZj0iI2xnMSIgeTE9IjI5NS42NDYiIHkyPSIyOTUuNjQ2Ij48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJTVkdJRF80XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMjQuODM0IiB4Mj0iNTEzIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeGxpbms6aHJlZj0iI2xnMSIgeTE9IjI5Ni40OTUiIHkyPSIyOTYuNDk1Ij48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJTVkdJRF81XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxNTMuMzkiIHgyPSI0MTUuMjM4IiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeGxpbms6aHJlZj0iI2xnMSIgeTE9IjIwNS4yNDciIHkyPSIyMDUuMjQ3Ij48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJTVkdJRF82XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNDAiIHgyPSIzNjEiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bGluazpocmVmPSIjbGcxIiB5MT0iNjYuNSIgeTI9IjY2LjUiPjwvbGluZWFyR3JhZGllbnQ+PGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Zz48ZyBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiPjxwYXRoIGQ9Im00OTcuNSA1MDYuNWgtNDgyYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1IDAtMzMuMTM3IDI2Ljg2My02MCA2MC02MGgzOTJjMzMuMTM3IDAgNjAgMjYuODYzIDYwIDYwIDAgOC4yODQtNi43MTYgMTUtMTUgMTV6IiBzdHJva2U9InVybCgjU1ZHSURfMV8pIiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PHBhdGggZD0ibTU1LjUgNDAxLjVjLTMwLjMyNyAwLTU1LTI0LjY3My01NS01NXMyNC42NzMtNTUgNTUtNTUgNTUgMjQuNjczIDU1IDU1LTI0LjY3MyA1NS01NSA1NXoiIHN0cm9rZT0idXJsKCNTVkdJRF8yXykiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48cGF0aCBkPSJtMzk4Ljg4OCAzMDYuMTM5djUuMzYxaDQ1LjAwM3YtMzEuMzQzeiIgc3Ryb2tlPSJ1cmwoI1NWR0lEXzNfKSIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48Zz48cGF0aCBkPSJtNDgyLjUgMzQxLjVoLTExMy42MTN2LTUyLjY4MWw3MS4wNjgtNDEuMDMxYzE0LjE1Ni04LjE3MyAxOS43MTUtMjYuMTgyIDExLjkzMy00MC41NTctOC4wNzQtMTQuOTE1LTI2LjgwMS0yMC4xNDEtNDEuMzkzLTExLjcxN2wtODYuNjAzIDUwYy05LjYxNSA1LjU1Mi0xNC44NjYgMTUuNjI4LTE0Ljg3NSAyNS45ODZoLS4xMjl2NDBoLTE1OS4zODhjLTUuNDA2IDAtMTAuNTg5Ljk1NS0xNS4zOTEgMi43MDMgNC4xMDkgOS45NjQgNi4zOTEgMjAuODY3IDYuMzkxIDMyLjI5NyAwIDE3LjgzNy01LjUzNCAzNC4zOTktMTQuOTU5IDQ4LjA4NSA2LjkzOSA0LjM3NSAxNS4xNSA2LjkxNSAyMy45NTkgNi45MTVoMzMyLjM3NmMxNi4zNDcgMCAzMC4xNjUtMTIuODE3IDMwLjYxMi0yOS4xNTcuNDY1LTE2Ljk1NC0xMy4xMzktMzAuODQzLTI5Ljk4OC0zMC44NDN6IiBzdHJva2U9InVybCgjU1ZHSURfNF8pIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48L2c+PC9nPjxnPjxwYXRoIGQ9Im0zOTUuMjU0IDE0Mi44OTljLTkuNTE1LTYuMDY0LTE5Ljg3OS0xMC41MS0zMC43MTItMTMuMjMyLTE2LjMzIDE2LjU1NC0zOS4wMDcgMjYuODMzLTY0LjA0MiAyNi44MzMtMjUuMzQ4IDAtNDguMjc5LTEwLjUzOC02NC42NTItMjcuNDU4LTQ2LjkwNSAxMC41MDMtODEuOTU4IDUyLjM4NC04MS45NTggMTAyLjQ1OHYyMGMwIDE2LjU2OSAxMy40MzEgMzAgMzAgMzBoMTAgNjkuOTk4YzguMjg0IDAgMTUtNi43MTYgMTUtMTV2LS4wMDZjMC04LjI4MS02LjcxMy0xNC45OTQtMTQuOTk0LTE0Ljk5NGgtNTAuMDA0Yy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1di0yOS41NzZjMC04LjA3NyA2LjIwNy0xNS4wMjcgMTQuMjc1LTE1LjQwNyA4LjYxNC0uNDA2IDE1LjcyNSA2LjQ1OCAxNS43MjUgMTQuOTgzdjE1aDM0Ljk5OGMxMS4yNjQgMCAyMS41NjcgNC4xNyAyOS40NjkgMTEuMDM0IDQuMzUyLTUuMTI3IDkuNTcyLTkuNTU2IDE1LjUzNi0xM2w4Ni42MDMtNTAgMTguOTM4LTEwLjkzNGMtNS43MjgtNS45MzYtMTIuMTUxLTExLjIyLTE5LjE4LTE1LjcwMXoiIHN0cm9rZT0idXJsKCNTVkdJRF81XykiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48cGF0aCBkPSJtMzAwLjUgMTI2LjVjLTMzLjA4NCAwLTYwLTI2LjkxNi02MC02MHMyNi45MTYtNjAgNjAtNjAgNjAgMjYuOTE2IDYwIDYwLTI2LjkxNiA2MC02MCA2MHoiIHN0cm9rZT0idXJsKCNTVkdJRF82XykiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
+                            </div>
+                           
+
+                            <div class="title">
+                                <h3 class="h4">Physiotherapy</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p> As the CEO of Lahore Physiotherapy and Rehabilitation Clinic I provide consultation and treatment to
+                                    patients suffering from various disorders.</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <a class="servicess" href="{% url 'teacher-training' %}">
+                        <div class="service--block">
+                             <div class="icon">
+                                <img style="padding: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDkzNyA5MzciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPHBhdGggZD0iTTUxMy4xLDM2MC44NWM1LjYwMSwwLDExLDAuOSwxNi4yLDIuNGw5Ny0xMTguOWM2LjItNy42LDE3LjctOSwyNS4yLTIuNmM3LjMsNi4xLDguMywxNywyLjIsMjQuNGwtOTUuOSwxMTcuNiAgIGM2LjUsOSwxMC40LDIwLjEwMSwxMC40LDMyLjEwMWMwLDIyLjMtMTMuNCw0MS42LTMyLjUsNTAuMTk5SDkxMmMxMy44LDAsMjUtMTEuMTk5LDI1LTI1di0zMTYuNWMwLTEzLjgtMTEuMi0yNS0yNS0yNUg0MzQgICBjLTEzLjgsMC0yNSwxMS4yLTI1LDI1djIwNy44bDIyLjYsMjguNmg4MS41VjM2MC44NXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTxjaXJjbGUgY3g9IjIwMS4zIiBjeT0iMTIxLjg1IiByPSIxMDIuNCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9jaXJjbGU+Cgk8Zz4KCQk8cGF0aCBkPSJNMzA2LjMsODkyLjU1YzAsMTMuODAxLTExLjIsMjUtMjUsMjVoLTQyYy0xMy44LDAtMjUtMTEuMTk5LTI1LTI1di0yMDkuNmMwLTcuNC02LTEzLjQtMTMuNC0xMy40bDAsMCAgICBjLTcuNCwwLTEzLjQsNi0xMy40LDEzLjR2MjA4LjZjMCwxNC4zMDEtMTEuNywyNi0yNiwyNmgtNDEuMWMtMTMuOCwwLTI1LTExLjE5OS0yNS0yNWwtMC4yLTUwNmMwLTYuOC01LjUtMTIuMzk5LTEyLjQtMTIuMzk5bDAsMCAgICBjLTYuOCwwLTEyLjQsNS41LTEyLjQsMTIuMzk5VjU4MS4xNWMwLDEzLjgtMTEuMiwyNS0yNSwyNUgyNWMtMTMuOCwwLTI1LTExLjItMjUtMjV2LTI2Ni44YzAtMzEuNywyNS43LTU3LjMsNTcuMy01Ny4zSDI4NSAgICBjMjQuMzk5LDAsNDcuNSwxMS4yLDYyLjcsMzAuM2w2MS4xOTksNzcuMmwxMi45LDE2LjNjMCwwLDU4LDAsOTEuNCwwLjFjMTMuOCwwLDI1LDExLjIsMjUsMjV2MTkuOWMwLDEzLjgtMTEuMiwyNS0yNSwyNUg0MDUgICAgYy0xMC43LDAtMjAuOC00LjktMjcuNC0xMy4zMDFsLTQ1LjYtNTguNmMtMi4zLTMtNi00LjgtOS44LTQuOEgzMTkuMWMtNi44LDAtMTIuMzk5LDUuNS0xMi4zOTksMTIuMzk5TDMwNi4zLDg5Mi41NXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" />
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">Teacher Training</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p> My training programs focus on three main goals. Helping teachers
+                                    overcome their fears, inculcating leadership qualities in them and enhance their professional
+                                    skills.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                        <!-- Service Block End -->
+                    </div>
+
+                     
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <a class="servicess" href="{% url 'career-counselling' %}">
+                        <div class="service--block">
+                           
+                             <div class="icon">
+                                <img style="padding: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ0OCA0NDgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTQwOCAzMTkuOTI5Njg4di0zMTkuOTI5Njg4bC0xMi4yMDcwMzEgMS4wMjM0MzhjLTQ4Ljk1NzAzMSA0LjA0Njg3NC05Ni45NzY1NjMgMTUuNzUtMTQyLjMwNDY4OCAzNC42ODc1bC0yMS40ODgyODEgOC45MjE4NzR2MzE4LjY2NDA2M2wxNS42NDg0MzgtNi41MDM5MDZjNDYuOTA2MjUtMTkuNTE1NjI1IDk2LjU3MDMxMi0zMS41ODk4NDQgMTQ3LjE5OTIxOC0zNS43OTI5Njl6bTAgMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTQ0OCA0Ny4yOTY4NzVoLTI0djI4MGMuMDE1NjI1IDQuMTcxODc1LTMuMTgzNTk0IDcuNjU2MjUtNy4zNDM3NSA4bC0yMC40ODgyODEgMS42Nzk2ODdjLTUuOTE0MDYzLjQ4ODI4Mi0xMS44MTI1IDEuMDkzNzUtMTcuNjg3NSAxLjgxNjQwNy0xLjkwNjI1LjIzMDQ2OS0zLjgwMDc4MS41MzUxNTYtNS42OTUzMTMuODAwNzgxLTMuOTYwOTM3LjUyNzM0NC03LjkxNDA2MiAxLjA2MjUtMTEuODU1NDY4IDEuNjg3NS0yLjI5Njg3Ni4zNjcxODgtNC41NzgxMjYuNzk2ODc1LTYuODY3MTg4IDEuMTk5MjE5LTMuNTI3MzQ0LjYxNzE4Ny03LjA2MjUgMS4yMzA0NjktMTAuNTgyMDMxIDEuOTI1NzgxLTIuNDAyMzQ0LjQ4MDQ2OS00LjgwMDc4MSAxLjAxOTUzMS03LjI1IDEuNTM5MDYyLTMuMzUxNTYzLjcxMDkzOC02LjcwMzEyNSAxLjQzNzUtMTAuMDMxMjUgMi4yMzA0NjktMi40OTYwOTQuNTkzNzUtNC45ODQzNzUgMS4yMjI2NTctNy40NjQ4NDQgMS44NTU0NjktMy4yMzgyODEuODAwNzgxLTYuNDYwOTM3IDEuNjY0MDYyLTkuNjc5Njg3IDIuNTYyNS0yLjUwMzkwNy42ODc1LTUuMDA3ODEzIDEuNDE0MDYyLTcuNTAzOTA3IDIuMTQ4NDM4LTMuMTk5MjE5Ljk0NTMxMi02LjM1MTU2MiAxLjkwNjI1LTkuNTExNzE5IDIuOTE0MDYyLTIuNDcyNjU2LjgwMDc4MS00Ljk0OTIxOCAxLjYwMTU2Mi03LjQxNDA2MiAyLjM5ODQzOC0zLjE2NDA2MiAxLjA2NjQwNi02LjMxMjUgMi4xNjc5NjgtOS40NDkyMTkgMy4zMDQ2ODctMi4zOTg0MzcuODcxMDk0LTQuODAwNzgxIDEuNzQ2MDk0LTcuMjUzOTA2IDIuNjY0MDYzLTEuMDk3NjU2LjQxNzk2OC0yLjE4NzUuODYzMjgxLTMuMjgxMjUgMS4yODkwNjJoMTgzLjM1OTM3NXptMCAwIiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtNTIuMjA3MDMxIDEuMDIzNDM4LTEyLjIwNzAzMS0xLjAyMzQzOHYzMTkuOTUzMTI1bDE0LjE5OTIxOSAxLjIwNzAzMWM1MC41OTc2NTYgNC4yMzA0NjkgMTAwLjIxODc1IDE2LjM3ODkwNiAxNDcuMDQ2ODc1IDM2bDE0Ljc1MzkwNiA2LjEzNjcxOXYtMzE4LjY2NDA2M2wtMjEuNDY0ODQ0LTguOTE0MDYyYy00NS4zMzIwMzEtMTguOTQxNDA2LTkzLjM1OTM3NS0zMC42NDg0MzgtMTQyLjMyODEyNS0zNC42OTUzMTJ6bTAgMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTAgNDcuMjk2ODc1djMyMGgxODMuNDg4MjgxYy0uOTg0Mzc1LS4zODY3MTktMS45Njg3NS0uODAwNzgxLTIuOTYwOTM3LTEuMTY3OTY5LTIuMjg5MDYzLS44NzEwOTQtNC41OTc2NTYtMS43MDMxMjUtNi45MDIzNDQtMi41NDI5NjgtMy4yNS0xLjE3OTY4OC02LjQ5NjA5NC0yLjMyODEyNi05Ljc2OTUzMS0zLjQyNTc4Mi0yLjM2NzE4OC0uODAwNzgxLTQuNzQyMTg4LTEuNTc4MTI1LTcuMTIxMDk0LTIuMzM1OTM3LTMuMjQ2MDk0LTEuMDY2NDA3LTYuNTAzOTA2LTIuMDcwMzEzLTkuNzY1NjI1LTMuMDA3ODEzLTIuNDAyMzQ0LS43MDMxMjUtNC44MDA3ODEtMS40MTAxNTYtNy4xOTkyMTktMi4wODIwMzEtMy4yODkwNjItLjkxMDE1Ni02LjU4NTkzNy0xLjc3MzQzNy05Ljg5MDYyNS0yLjYyMTA5NC0yLjM5ODQzNy0uNjE3MTg3LTQuODAwNzgxLTEuMjM0Mzc1LTcuMjUzOTA2LTEuODA4NTkzLTMuMzUxNTYyLS44MDA3ODItNi43MjI2NTYtMS41MzUxNTctMTAuMDg5ODQ0LTIuMjU3ODEzLTIuMzk4NDM3LS41MTk1MzEtNC44MDA3ODEtMS4wNDY4NzUtNy4xOTkyMTgtMS41MjczNDQtMy40ODgyODItLjY4NzUtNi45OTIxODgtMS4zMDQ2ODctMTAuNDk2MDk0LTEuOTE3OTY5LTIuMjk2ODc1LS40MDIzNDMtNC41OTM3NS0uODAwNzgxLTYuODk0NTMyLTEuMjEwOTM3LTMuODY3MTg3LS42MTMyODEtNy43NDYwOTMtMS4xMzI4MTMtMTEuNjI1LTEuNjU2MjUtMS45NjA5MzctLjI2MTcxOS0zLjkwNjI1LS41NzQyMTktNS44NjMyODEtLjc5Njg3NS01Ljg2NzE4Ny0uNzEwOTM4LTExLjczNDM3NS0xLjMxNjQwNi0xNy42MDE1NjItMS44MTY0MDZsLTIxLjUzNTE1Ny0xLjgyNDIxOWMtNC4xNTIzNDMtLjM1NTQ2OS03LjMzNTkzNy0zLjgzNTkzNy03LjMyMDMxMi04di0yODB6bTAgMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+                            </div>
+
+                              <div class="title">
+                                <h3 class="h4">Career Counselling</h3>
+                            </div>
+
+                            
+
+                            <div class="desc">
+                                <p> People can do wonders if they are guided properly. My aim is to assist students in making the right choices regarding their field of interest and career.
+</p>
+                            </div>
+                        </div>
+                    </a>
+                         
+                        <!-- Service Block End -->
+                    </div>
+
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <a class="servicess" href="{% url 'camps-&-workshops' %}">
+                        <div class="service--block">
+                             <div class="icon">
+                                <img style="padding: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTM2My4wMjggMzQ4LjIyNWgyOC4xODF2MjguMTgxaC0yOC4xODF6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTQ4NC42ODQgMTczLjM2OS0yMTMuNjg0LTY1LjU5di0yMy40NDVoNjQuMzMzdi04NC4zMzNoLTk0LjMzM3YxMDcuNzc4bC0yMTMuNjg0IDY1LjU5djc5LjY5NWg0NTcuMzY3di03OS42OTV6bS0yMTMuNjg0IDQ3LjMxMWgtMzB2LTE3LjUyNWgtMTcuNTI1di0zMGgxNy41MjV2LTE3LjUyNWgzMHYxNy41MjVoMTcuNTI1djMwaC0xNy41MjV6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTEyMC43OTEgMzQ4LjIyNWgyOC4xODJ2MjguMTgxaC0yOC4xODJ6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTQ4NC42ODQgNDgxLjk5OXYtMTk4LjkzNWgtNDU3LjM2OHYxOTguOTM1aC0yNy4zMTZ2MzBoNTEydi0zMHptLTE1MS42NTYtMTYzLjc3NGg4OC4xODF2ODguMTgxaC04OC4xODF6bS0yNDIuMjM3IDBoODguMTgydjg4LjE4MWgtODguMTgyem0xMjkuMzY1IDk3LjMzNGMxMy42MzYtMjcuMjA2IDIwLjg0NC01Ny42NzEgMjAuODQ0LTg4LjEwM3YtOS4yMzJoMzB2OS4yMzJjMCAzMC40MzIgNy4yMDggNjAuODk3IDIwLjg0NCA4OC4xMDMgMTIuOTA0IDI1Ljc0NSAzMS41OTMgNDguNjI1IDU0LjIyNCA2Ni40NGgtNDQuMTU4Yy0xNC43MjUtMTUuODA1LTI3LjIxNC0zMy43MDMtMzYuODg1LTUyLjk5OC0zLjM0Ny02LjY3Ny02LjM1OC0xMy41MjUtOS4wMjQtMjAuNTA3LTIuNjY2IDYuOTgyLTUuNjc3IDEzLjgzLTkuMDI0IDIwLjUwNy05LjY3MSAxOS4yOTUtMjIuMTYxIDM3LjE5My0zNi44ODUgNTIuOTk4aC00NC4xNThjMjIuNjMtMTcuODE1IDQxLjMxOC00MC42OTUgNTQuMjIyLTY2LjQ0eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">Camps & Workshops</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p> As a certified physiotherapist, i organize camps where I provide free consultation to patients and also conduct free workshops for aspiring physiotherapists.</p>
+                            </div>
+                        </div>
+                    </a>
+                        <!-- Service Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section End -->
+
+        <!-- Clients Section Start -->
+        <section id="clients" class="section pt--80 pb--20">
+            <div class="container">
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Worked For</h2>
+                </div>
+                <div class="row" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/1.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/2.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/3.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/4.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+               </div>
+            </div>
+        </section>
+        <!-- Clients Section End -->
+
+        
+<!-- Blog Section Start -->
+        <section id="blog" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Blog &amp; News</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow"  style="color: #ebe6e6;">
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Post Item Start -->
+                        <div class="post--item">
+                            <!-- Post Image Start -->
+                            <div class="post--img">
+                                <a href="blog-details.html"><img src="{% static 'img/portfolio-img/physio/17a.jpg' %}" alt=""></a>
+
+                            
+                            </div>
+                            <!-- Post Image End -->
+
+                            <!-- Post Title Start -->
+                            <div class="post--title text-uppercase">
+                                <h3 class="h3 fs--22">
+                                    <a href="blog-details.html" class="btn-link" style="font-size: 15px;">Eiusmod tempor incididunt ut labore et dolor menna aliqua t dolor menna</a>
+                                </h3>
+                            </div>
+                            <!-- Post Title End -->
+                        </div>
+                        <!-- Post Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Post Item Start -->
+                        <div class="post--item">
+                            <!-- Post Image Start -->
+                            <div class="post--img">
+                                <a href="blog-details.html"><img src="{% static 'img/portfolio-img/physio/17a.jpg' %}" alt=""></a>
+
+                
+                            </div>
+                            <!-- Post Image End -->
+
+                            <!-- Post Title Start -->
+                            <div class="post--title text-uppercase">
+                                <h3 class="h3 fs--22">
+                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliquat dolor menna aliqua </a>
+                                </h3>
+                            </div>
+                            <!-- Post Title End -->
+
+                        </div>
+                        <!-- Post Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Post Item Start -->
+                        <div class="post--item">
+                            <!-- Post Image Start -->
+                            <div class="post--img">
+                                <a href="blog-details.html"><img src="{% static 'img/portfolio-img/physio/17a.jpg' %}" alt=""></a>
+
+                                <a href="#" class="date">25 Jan 2017</a>
+                            </div>
+                            <!-- Post Image End -->
+
+                            <!-- Post Title Start -->
+                            <div class="post--title text-uppercase">
+                                <h3 class="h3 fs--22">
+                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
+                                </h3>
+                            </div>
+                            <!-- Post Title End -->
+
+                            <!-- Post Excerpt Start -->
+                            <div class="post--excerpt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
+                            </div>
+                            <!-- Post Excerpt End -->
+
+                            <!-- Post Action Start -->
+                            <div class="post--action text-uppercase">
+                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                            <!-- Post Action End -->
+                        </div>
+                        <!-- Post Item End -->
+                    </div>
+                </div>
+
+                <!-- Section Footer Start -->
+                <div class="section--footer text-center pb--60">
+                    <a href="blog.html" class="btn btn-primary">View All Posts</a>
+                </div>
+                <!-- Section Footer End -->
+            </div>
+        </section>
+        <!-- Blog Section End -->
+
+<!-- Portfolio Section Start -->
+        <section  id="portfolio" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2  style="margin-top: -20px;" class="h2 text-uppercase">Portfolio</h2>
+                </div>
+                <!-- Section Title End -->
+
+
+                <!-- Portfolio Items Start -->
+                <div class="portfolio--items row MasonryRow pb--30" data-trigger="gallery_popup">
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        
+                        
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            <a  href="{% static 'img/portfolio-img/physio/17a.jpg' %}" alt="">
+
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/17b.jpg' %}" class="caption">
+                            
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+                                        <h5 style="text-align: justify;">Professor Dr.Ashraf Nizami President Pakistan Medical association , Dr.Arif Latif Orthopaedic Surgeon welcomed at clinic</h5>
+                                    </div>
+                                </div>
+
+                                
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="ui-design illustration">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                              <a href="{% static 'img/portfolio-img/physio/04.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/004.jpg' %}" alt="">
+
+                          
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5 style="text-align: justify;">Prof.Israr Hussain Chishti Chairman PUCAD, Ali Hassan Sonu Gold Medalist Singer , Ghufran Chishti Naat and Sufi Singer welcomed at clinic</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            <a href="{% static 'img/portfolio-img/training/8.jpeg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/training/08.jpg' %}" alt="">
+
+                            
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5 style="text-align: justify;">3 days Teachers Training Workshop at Hotel Ramada for to the faculty of Concordia Group of Colleges</h5>
+
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="ui-design illustration">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/12a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/12b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Manual Lumbar traction by Dr.Shams Ul Haq at Physiotherapy Clinic</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat=" ui-design illustration">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            <a href="{% static 'img/portfolio-img/physio/01.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/001.jpg' %}" alt="">
+
+                            
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Taufeeq Umar Ex-Pakistan Cricket left handed Batsman visited Physiotherapy Clinic</h5>
+
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/9.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/09.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Teachers Training workshop at Beaconhouse School Systems Head office Lahore</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/11.jpeg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/11a.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Concordia Colleges Biology Faculty after Teachers Training Workshop</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/12.jpeg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/12a.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Concordia Colleges Biology Faculty after Teachers Training Workshop</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/13.jpeg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/13a.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Biology SSC Faculty Islamabad after Teachers Training Workshop</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                     <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/5.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/05.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Teachers Training Session in Beaconhouse School Systems Islamabad</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/11a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/11b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Team IMAX Productions at Lahore Physiotherapy and Rehab Clinic.</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/05.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/005.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Yaseen Wattoo Palmist, Mam Nafeesa Rashid Marketing Head 7 News at Physiotherapy clinic</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/03.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/003.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Subah Savere Pakistan 92 News with Dr. Shams Ul Haq Physiotherapist</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/3.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/03.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Receiving Best Trainer Award from  Yabseen Khan, Director Dar e Arqam Secondary education</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/16a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/16b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Ghulam Fatima Pakistan Women Cricket All-rounder visited Dr. Shams Ul Haq</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                     <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/07.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/007.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Alhaaj Marghoob Ahmad hamdani Pride of Performance Pakistan , Naima Lashari CEO Sach TV , Muhammad Waheed Iqbal Late , Director Programs</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/08.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/008.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Taufeeq Umar Ex Pakistan Cricket Left handed batsman , Irfan Allah Khan Sports Coach Kinnaird College , Nadeem Zafar Level 2 PCB Coach visited Clinic</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/17b.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/17.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Morning Show ON NEWS , Dr.Ali Saqlain Haider , Director Programs Muhammad Waheed Iqbal , Host and Tiktoker Sana Sheikh with Dr. Shams Ul Haq Physiotherapist</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                       <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/10a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/10b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Dr.Samana Zeeshan (France) shared best wishes to Dr.Shams Ul HAQ</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/15.jpeg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/15a.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>10th Convocation at University of south Asia, Lahore</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/13a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/13b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Physiotherapy Session at Levels Gym Johar town Lahore</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+            
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/15a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/15b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Pakistan Deaf Cricket player visited Dr.Shams Ul Haq for fitness tips</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/09.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/009.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Subah Saveray Pakistan, Morning Show at 92 News With Dr.Shams Ul HAQ</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/2.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/02.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>With Ghufran Chishti Naat and Sufi Singing Sensation at convocation</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/06.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/006.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Welcomed at Physiotherapy Awareness session at The Nest Schools Lahore</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                  
+                  <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                             <a href="{% static 'img/portfolio-img/physio/19a.jpg' %}" class="caption">
+                            <img style="width: 100%;" src="{% static 'img/portfolio-img/physio/19b.jpg' %}" alt="">
+
+                           
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h5>Subah Saveray Pakistan, Morning Show at 92 News With Dr.Shams Ul HAQ</h5>
+
+                            
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div  class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/14.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/14a.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Abid Wazir Khan CEO Kips Preparations presenting Best Performance Award</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/4.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/04.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Biology Faculty HITEC Taxilla after Teachers Training Workshop</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/6.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/06.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Teachers Training Workshop at HITEC TAXILLA with faculty</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                    <div class="col-md-4 col-xs-12 pb--60" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div style="margin-top: -20px;" class="portfolio--item">
+                            
+
+                            <a href="{% static 'img/portfolio-img/training/7.jpg' %}" class="caption">
+                                <img style="width: 100%;" src="{% static 'img/portfolio-img/training/07.jpg' %}" alt="">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        
+
+                                        <h5>Pre Training Discussions at Beaconhouse School Systems Head office Lahore</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                </div>
+                <!-- Portfolio Items End -->
+            </div>
+
+        </section>
+        <!-- Portfolio Section End -->
+
+
+
+        
+
+        <!-- Resume Section Start -->
+        <section style="margin-top: -100px;" id="resume" class="section pt--100 pb--100">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">My Resume</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                    <div class="title">
+                        <h3 class="h5">Education</h3>
+                    </div>
+
+                    <div class="sub-title">
+                        <p class="fs--16">Knowledge is power. Information is liberating. Eduction is the premise of progress, in every society, in every family.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2013 - 2018</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Doctor of Physiotherapy</h4>
+
+                                                <p class="institute ff--primary">University of South Asia</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Final Year Project: “Association of upper limb musculoskeletal discomfort in relation to ergonomic stress in cameramen”</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2015 - 2016</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">University of Punjab</h4>
+
+                                                <p class="institute ff--primary">BS(English)</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I have done BS(English) from renowed university of Pakistan "The Punjab University" being qualified in A+ grade with distinctin.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+
+                        <li>
+
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2019 – Present</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Pakistan Physiotherapy Association </h4>
+
+                                                <p class="institute ff--primary">REGISTERED</p>
+
+                                                <p class="location fs--12">Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I got registered from Pakistan Physiotherapy Association in 2019. I'm also certefied in kinesio-taping from UK.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            <!-- Timeline Item End -->
+
+                             <li>
+
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2019 – Present</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Kinesio-taping Certification</h4>
+
+                                                <p class="institute ff--primary">CERTIFIED</p>
+
+                                                <p class="location fs--12">United Kingdom</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I'm certefied in kinesio-taping from UK.I also got registered from Pakistan Physiotherapy Association in 2019. </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            <!-- Timeline Item End -->
+                      
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Resume Section End -->
+
+        <!-- Experience Section Start -->
+        <section class="section pt--100 pb--100 bg-light">
+            <div class="container">
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                    <div class="title">
+                        <h3 class="h5">Experience</h3>
+                    </div>
+
+                    <div class="sub-title">
+                        <p class="fs--16">Every experience in your life is being orchestrated to teach you something you need to know to move forward.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+
+                        <li>
+
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">August 2019 - Present</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Lahore Physiotherapy and Rehab Clinic</h4>
+
+                                                <p class="institute ff--primary">Chief Executive Ofiicer</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>As the CEO, I possess excellent leadership skills. A large number of patients have benefited from my unique treatment regime based on the principles of empathy and adopting latest clinical guidelines.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            <!-- Timeline Item End -->
+
+                            <li>
+
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">April 2020 - Present</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Lahore Grammer School</h4>
+
+                                                <p class="institute ff--primary">Biology Teacher (Higher Secondary)</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Planning and delivering daily instructions according to school biology curriculum. Coordinating with faculty and improvising standard test procedures. Evaluating learning outcomes, developing examination protocols and maintaining excellence in teaching standards.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            <!-- Timeline Item End -->
+
+                         <!-- Timeline Item Start -->
+                            <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">April 2016 - 2020</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">KIPS Preparations, Evening Coaching</h4>
+
+                                                <p class="institute ff--primary">Biology Teacher (Higher Secondary)</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Provided teaching in effective and interesting manner and fulfilled students and  management expectations. Maintained professional behavior with students, parents, and teachers.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+
+                            <li>
+
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">April 2016 - 2018</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Mumtaz Bakhtawar Trust Teaching Hospital Lahore</h4>
+
+                                                <p class="institute ff--primary">SCPs , Physiotherapy Department</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I have been on the panel of the physiotherapy department of Mumtaz Bakhtawar Trust
+                                                    Teaching hospital. As a part of the hospital's physiotherapy team I have counselled hundreds of patients, developed coordination between different departments for effective patient care and treatment.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            <!-- Timeline Item End -->
+
+                    <!-- Timeline Item Start -->
+                            <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2020</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Dar-e-Arqam, Biology Secondary School</h4>
+
+                                                <p class="institute ff--primary">Teacher Training</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Developed high quality training programs for teachers with special focus on enhancing academic performance of students. My training regimens empowered the teaching faculty in developing better coordination skills and boosting their confidence.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </li>
+                            <!-- Timeline Item End -->
+
+
+                                <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2020</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Concordia Group of Colleges</h4>
+
+                                                <p class="institute ff--primary">Teacher Training</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>As part of Concordia Group, I have worked with their teachers to improve their communication skills and develop a good relationship with their students. My programs also helped the teaching faculty in keeping up with the latest teaching methodologies and techniques.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+
+                        </li>
+                            
+                    <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2019</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">The Educators, Biology Secondary School</h4>
+
+                                                <p class="institute ff--primary">Teacher Traning</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I developed highly efficient training programs for teachers that focused on enhancing their professional and personal communication skills. These programs also helped the teaching faculty in keeping up with the latest teaching methodologies and techniques.
+</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </li>
+                            <!-- Timeline Item End -->
+                         
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2019</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Dar-e-Arqam Notes Series, Biology Secondary School</h4>
+
+                                                <p class="institute ff--primary">Publisher</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I have worked as publisher of biology notes for Dar-e-Arqam. These notes are highly popular among students because of their student friendly content and easy explanations of difficult topics.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            <!-- Timeline Item End -->
+
+                            <!-- Timeline Item Start -->
+                            <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2019</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">The Educators (Beaconhouse School System)</h4>
+
+                                                <p class="institute ff--primary">Teacher Training</p>
+
+                                                <p class="location fs--12">HITEC Taxilla, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I developed highly efficient training programs for teachers. Planned, directed and executed highly effective training regimens which helped the faculty in improving their teaching methodology.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+
+                        </li>
+
+                               <!-- Timeline Item Start -->
+                               <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2018</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">KIPS Notes Series, Biology Secondary School</h4>
+
+                                                <p class="institute ff--primary">Publisher</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I have been a part of the publishing team of biology notes for Kips Group. A large number of students have benefitted from these notes for their board examinations and entry test preparations.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+
+                            <!-- Timeline Item Start -->
+                            <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2018</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">KIPS Biology Secondary School</h4>
+
+                                                <p class="institute ff--primary">Teacher Traning</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I developed highly efficient training programs for teachers. Planned, directed and executed highly effective training regimens which helped the faculty in improving their teaching methodology.
+</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                            
+
+                        <!-- Timeline Item Start -->
+                        <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">April 2012 - 2016</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">KIPS Preparations, Evening Coaching</h4>
+
+                                                <p class="institute ff--primary">Biology Teacher (Secondary)</p>
+
+                                                <p class="location fs--12">Lahore, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Demonstrated various techniques and methods for learning biology easily. Followed School's instruction design and improved grades of students. Provided teaching in effective and interesting manner and fulfilled students and management expectations.
+</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+
+                        <!-- Timeline Item Start -->
+                            <li>
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2018</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Punjab Curriculum Text Book Board</h4>
+
+                                                <p class="institute ff--primary">Biology Course S election</p>
+
+                                                <p class="location fs--12">Punjab, Pakistan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>I have provided my best & leading services regarding biology course selection, as a member to Punjab Curriculum text book board.
+</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                    
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Experience Section End -->
+
+        <!-- Skills Section Start -->
+        <section id="skills" class="section pt--100 pb--40" data-bg-img="{% static 'img/skill3.jpg' %}" data-overlay="0.6">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-white text-uppercase">My Skills</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row">
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Personal Skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Hard Work</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Self Motivation</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Communication</span>
+                                    <span class="skill--count float--right">93%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 93%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Team Work</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Dedication</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
+                    </div>
+
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Professional Skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Physiotherapy</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Teacher Training</span>
+                                    <span class="skill--count float--right">95%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 95%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Lecturer</span>
+                                    <span class="skill--count float--right">95%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 95%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Publications</span>
+                                    <span class="skill--count float--right">85%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 85%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Kinesiotaping</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section End -->
+
+
+        <!-- Clients Section Start -->
+        <section id="clients" class="section pt--80 pb--20">
+            <div class="container">
+                <div class="row" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/1.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/2.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/3.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="{% static 'img/brands-img/4.png' %}" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients Section End -->
+
+        <!-- Testimonial Section Start -->
+            <section style="background: url('{% static 'img/portfolio2.jpg' %}'); background-size: cover; background-repeat: no-repeat;" id="testimonial" class="section pt--90 pb--90" data-overlay="0.5">
+            <div class="container">
+                
+                <!-- Testimonial Slider Start -->
+                <div class="testimonial--slider owl-carousel" data-owl-dots="true">
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p> Attending Dr Shams ul Haq’s training programs has been a life changing experience for my staff.
+                                His training has helped them immensely in improving their teaching skills and gave them
+                                confidence to interact with students in a better way.</p>
+
+                            <footer>Usman Shafqat Chatta @ Beaconhouse School System Head Office.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>Dr Shams ul Haq is an excellent therapist. I reffered my patients to him. They have benefitted immensely from his excellent clinical skills and knowledge.</p>
+
+                            <footer>Dr Ali Saqlain Haider @ Consultant Nephrologist Sheikh Zaid Hospital.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>Dr Shams ul Haq’s training programs have helped me immensely in reaching my
+                                professional goals and targets. His teaching methodology is unique and highly effective.</p>
+
+                            <footer>Professor Nazir Ahmed @ Kips Head Office.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                      <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>Dr Shams is blessed with leadership qualities. Working under him has been a truly
+                                enlightening experience.</p>
+
+                            <footer>Professor Ikram Ul Haq @ Kips Head Office.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                      <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>I rank Dr Shams ul Haq’s classes at the top because of his innovative teaching skills and his
+                                way of interacting with students. He is my inspiration.</p>
+
+                            <footer>Aaliyan @ Student Lahore Grammer School.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                      <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>Dr Shams ul Haq’s career advice has turned my career around. He is a thorough
+                                professional in every sense of the word.</p>
+
+                            <footer>Alina @ Kips Academy.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+                </div>
+                <!-- Testimonial Slider End -->
+            </div>
+        </section>
+        <!-- Testimonial Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Contact With Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow pb--10">
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Call Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>+92 321 8451888, +92 310 4167409</p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Visit Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>1M, Block Model Town Ext. Main boulevard Faisal Town, Lahore Pakistan. </p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Send A Message</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="mailto:john@example.com" class="btn-link">info@drshamsulhaq.com</a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+                </div>
+
+                <!-- Contact Form Start -->
+                <div class="contact--form pb--60" data-form="ajax">
+                    <div class="title text-center text-uppercase pb--30">
+                        <h3 class="h4">You can drop me a line here</h3>
+                    </div>
+
+                    <form action="{% url 'contactsub' %}" method="POST">
+                         {% csrf_token %}
+                        <div class="status"></div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Name *" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="E-mail *" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" name="subject" placeholder="Subject *" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Message *" class="form-control" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-block btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Contact Form End -->
+            </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Footer Section Start -->
+        <footer class="footer--section pt--100 pb--100 text-center">
+            <div class="container">
+                <!-- Footer Social Start -->
+                <div class="footer--social">
+                    <ul class="nav" data-scroll-reveal="group">
+                        <li><a href="https://web.facebook.com/shams.ulhaq.581"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/dr_shams_physio/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/dr-shams-ul-haq-physiotherapist-01405619b"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/shamsul16947524"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                
+                
+                <!-- Footer Social End -->
+
+                <!-- Copyright Text Start -->
+                <p class="copyright--text fs--16 ff--primary">Copyright &copy; 2021 <a href="#">Dr. Shams Ul Haq</a>. All Rights Reserved.</p>
+                <!-- Copyright Text End -->
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+        <a href="#" class="btn btn-default active"><i class="fa fa-long-arrow-up"></i></a>
+    </div>
+    <!-- Back To Top Button End -->
+
+    <!-- ==== Plugins Bundle ==== -->
+    <script src=" {% static 'js/plugins.min.js' %}"></script>
+
+    <!-- ==== Main Script ==== -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+from django.urls import path
+from shamscv import views
+
+urlpatterns = [
+	
+	path('index/',views.index, name='index'),
+	path('contact/',views.contact, name='contact'),
+	path('contactsub/',views.contact_form, name='contactsub'),
+	path('portfolio/',views.portfolio, name='shams-portfolio'),
+	path('physio/',views.physio, name='physiotherapy'),
+	path('teacher/',views.teacher, name='teacher-training'),
+	path('career/',views.career, name='career-counselling'),
+	path('camp/',views.camp, name='camps-&-workshops'),
+
+	path('ac/',views.ac, name='ac'),
+	path('achilles/',views.achilles, name='achilles'),
+	path('acl/',views.acl, name='acl'),
+	path('ankle/',views.ankle, name='ankle'),
+	path('arthritis/',views.arthritis, name='arthritis'),
+	path('arthroscopy/',views.arthroscopy, name='arthroscopy'),
+	path('backpain/',views.backpain, name='backpain'),
+	path('bells/',views.bells, name='bells'),
+	path('bursitis/',views.bursitis, name='bursitis'),
+	path('carpel/',views.carpel, name='carpel'),
+	path('cerebral/',views.cerebral, name='cerebral'),
+	path('cervicogenic/',views.cervicogenic, name='cervicogenic'),
+	path('coccydynia/',views.coccydynia, name='coccydynia'),
+	path('concussion/',views.concussion, name='concussion'),
+	path('copd/',views.copd, name='copd'),
+	path('de-quervain/',views.dequervain, name='de-quervain'),
+	path('disc-herniation/',views.discherniation, name='disc-herniation'),
+	path('disc/',views.disc, name='disc'),
+	path('dystonia/',views.dystonia, name='dystonia'),
+	path('erbs-palsy/',views.erbspalsy, name='erbs-palsy'),
+	path('erectile-dysfunction/',views.erectiledysfunction, name='erectile-dysfunction'),
+	path('facet-joint/',views.facetjoint, name='facet-joint'),
+	path('fibromyalgia/',views.fibromyalgia, name='fibromyalgia'),
+	path('foot-pain/',views.footpain, name='foot-pain'),
+	path('fracture/',views.fracture, name='fracture'),
+	path('frozen-shoulder/',views.frozenshoulder, name='frozen-shoulder'),
+	path('golfers-elbow/',views.golferselbow, name='golfers-elbow'),
+	path('groin-strain/',views.groinstrain, name='groin-strain'),
+	path('guillain/',views.guillain, name='guillain'),
+	path('headaches/',views.headaches, name='headaches'),
+	path('heart-surgery/',views.heartsurgery, name='heart-surgery'),
+	path('heel-pain/',views.heelpain, name='heel-pain'),
+	path('hip-replacement/',views.hipreplacement, name='hip-replacement'),
+	
+
+]

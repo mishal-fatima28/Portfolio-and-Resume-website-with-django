@@ -1,0 +1,393 @@
+{% load static %}
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ==== Document Title ==== -->
+    <title>Dr. Shams Ul Haq Physiotherapist</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="{% static 'favicon.png' %}" type="image/png">
+
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Condensed:300,400,700">
+    
+    <!-- ==== Plugins Bundle ==== -->
+    <link rel="stylesheet" href="{% static 'css/plugins.min.css' %}">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/responsive-style.css' %}">
+    
+    <!-- ==== Color Scheme Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/colors/color-11.css' %}" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="bg-primary">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header id="header" class="header--section">
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- Logo Start -->
+                        <a href="index.html" class="navbar-brand">
+                            <span class="vc--parent">
+                                <span class="vc--child">
+                                    <img src="{% static 'img/logo.png' %}" alt="">
+                                </span>
+                            </span>
+                        </a>
+                        <!-- Logo End -->
+                    </div>
+
+                    <div id="headerNav" class="navbar-collapse collapse">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links ff--primary nav navbar-right">
+                            <li><a href="{% url 'index' %}">Home</a></li>
+                            <li><a href="{% url 'contact' %}">Contact</a></li>
+                            <li><a href="https://calendly.com/drshamsulhaqphysio">Schedule Appointment</a></li>
+                            
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Page Breadcrumb Start -->
+        <div class="page--breadcrumb pt--160 pb--100" data-bg-parallax="{% static 'img/physio.jpg' %}" data-overlay="0.8">
+            <div class="container">
+                <ul class="breadcrumb ff--primary text-center">
+                    <li><a href="{% url 'physiotherapy' %}" class="btn-link">Physiotherapy</a></li>
+                    <li class="active"><span>Disc Herniation</span></li>
+                    <div style="margin-top: 10px;" class="action">
+                                        
+                                        <a href="https://calendly.com/drshamsulhaqphysio" class="btn btn-white">Schedule Appointment</a>
+                                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- Page Breadcrumb End -->
+
+        <!-- Blog Section Start -->
+        <section id="blog" class="section pt--100 pb--40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- Post Single Start -->
+                        <div class="post--single pb--60">
+                            <div class="post--header clearfix">
+                                
+
+                                <!-- Post Title Start -->
+                                <div class="post--title text-uppercase ov--h">
+                                    <h4 class="h3 fw--400">What is Disc Herniation, it's symptoms and how physiotherapy can help in this regard? </h4>
+                                </div>
+                                <!-- Post Title End -->
+                            </div>
+
+                           
+                           
+
+                            <!-- Post Content Start -->
+                            <div class="post--content clearfix text-dark">
+                                <p>The round disc between spine provides cushioning to the bones of spine and acts as shock absorber. If the fragment of disc is pushed out into spinal canal, then it is called disc herniation. This displacement produces severe pain in relevant part of spine. It is mostly referred as low back disorder. The main causes include injury or natural aging process.
+
+                                
+                               
+ </p> 
+
+                                     <!-- Post Image Start -->
+                                     <br>
+                            <div class="post--img">
+                                <img src="{% static 'img/conditions/disch.jpg' %}" alt="">
+                            </div>
+                            <!-- Post Image End -->
+
+                            
+
+                                
+
+                                <br>
+
+                               <div class="post--title text-uppercase ov--h">
+                                    <h3 class="h3 fw--400">Symptoms of Disc Herniation:</h3>
+                                </div>
+
+                                
+
+                                <p> 
+                                    <ul>
+                                   <li>Numbness in body</li>
+                                   <li>Back pain in case of lumbar herniation</li>
+                                   <li>Problems bending or straightening your back (lumbar herniation)</li>
+                                   <li>Muscle weakness/li>
+                                   <li>Pain in the buttocks, hips or legs (lumbar herniation)</li>
+                                   
+                                    </ul>
+                               </p>
+
+                                
+                                <br>
+
+                               <div class="post--title text-uppercase ov--h">
+                                    <h3 class="h3 fw--400">How Physiotherapy helps to cure Disc Herniation:</h3>
+                                </div>
+
+                                <br>
+
+                                <p>If it is not pressing nerve, then patient may experience no pain. If it presses nerve, then it will may lead to severe pain. The majority cases do not require surgery. The person gets improved with small treatment with age. The physical therapy treatment with doctor’s diagnosis will better this disease. Passive treatments for relaxation of body include: 
+
+<ul>
+                                    <li>Ice therapy and heat therapy</li>
+                                    <li>Muscle relaxing exercises</li>
+                                    <li>Ultrasound electrical muscle stimulation (TENS)</li>
+                                    <li>Hydrotherapy</li>
+<br>
+                                Active physical therapy treatments include:
+                                <br>
+                                    <li>Core (abdominal) stability</li>
+                                    <li>Flexibility</li> 
+                                    <li>Muscle strengthening exercise</li>
+                                    <br>
+                                The improvement period may take few weeks with drugs and physical therapy. If not improved, surgery can be done. 
+
+
+                              </ul>
+                                </p>
+                            </div>
+                            <!-- Post Content End -->
+
+                            
+                        </div>
+                        <!-- Post Single End -->
+
+                       
+                    </div>
+
+                    <div class="col-md-4 pb--60">
+                                 <!-- Widget Start -->
+                        <div class="widget">
+                            <!-- Search Widget Start -->
+                            <div class="search--widget" data-form="validate">
+                                <form action="#">
+                                    <input type="text" name="search" placeholder="Search" class="form-control" required>
+
+                                    <button type="submit" class="btn-link"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <!-- Search Widget End -->
+                        </div>
+                        <!-- Widget End -->
+
+<br>
+                         <!-- Comment Block Start -->
+                        <div class="comment--block pb--60">
+                            <div class="comment--block-inner" data-form="validate">
+                                <div class="title text-uppercase pb--20">
+                                    <h3 style="color: #008bad; margin-top: -15px;">Lahore Physiotherapy And Rehab Clinic </h3>
+                                    <h6>1M, Block Model Town Ext. Main boulevard Faisal Town, Lahore Pakistan.</h6>
+                                </div>
+
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-xs-6 col-xxs-12">
+                                            <div class="form-group">
+                                                <input type="text" name="name" placeholder="Name" class="form-control" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6 col-xxs-12">
+                                            <div class="form-group">
+                                                <input type="email" name="email" placeholder="Email" class="form-control" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12">
+                                            <div class="form-group">
+                                                <textarea name="message" placeholder="Message" class="form-control" required></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                       <button onclick="window.location.href='https://calendly.com/drshamsulhaqphysio';" class="btn btn-block btn-primary">Schedule Your Appointment</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Comment Block End -->
+
+                        <!-- Widget Start -->
+                        <div class="widget">
+                            <div class="widget--title">
+                                <h2 class="h4">Popular Tags</h2>
+                            </div>
+
+                            <!-- Links Widget Start -->
+                            <div class="tags--widget ff--primary bg-default">
+                                <ul class="nav">
+                                    <li><a href="{% url 'physiotherapy' %}">Physiotherapy</a></li>
+                                    <li><a href="{% url 'physiotherapy' %}">Pain Management</a></li>
+                                    <li><a href="{% url 'physiotherapy' %}">Rehab</a></li>
+                                    <li><a href="{% url 'arthritis' %}">Arthritis</a></li>
+                                    <li><a href="{% url 'physiotherapy' %}">Joint Pain</a></li>
+                                    <li><a href="{% url 'physiotherapy' %}">Muscle Pain</a></li>
+                                    <li><a href="{% url 'physiotherapy' %}">Physical Therapy</a></li>
+                                    <li><a href="{% url 'physiotherapy' %}">Home Physio</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <!-- Links Widget End -->
+                        </div>
+                        <!-- Widget End -->
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Contact With Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+        <div class="row AdjustRow pb--10">
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Call Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>+92 321 8451888, +92 310 4167409</p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Visit Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>1M, Block Model Town Ext. Main boulevard Faisal Town, Lahore Pakistan. </p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Send A Message</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="mailto:john@example.com" class="btn-link">info@drshamsulhaq.com</a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Footer Section Start -->
+        <footer class="footer--section pt--100 pb--100 text-center">
+            <div class="container">
+                <!-- Footer Social Start -->
+                <div class="footer--social">
+                    <ul class="nav" data-scroll-reveal="group">
+                        <li><a href="https://web.facebook.com/shams.ulhaq.581"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/dr_shams_physio/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/dr-shams-ul-haq-physiotherapist-01405619b"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/shamsul16947524"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                
+                
+                <!-- Footer Social End -->
+
+                <!-- Copyright Text Start -->
+                <p class="copyright--text fs--16 ff--primary">Copyright &copy; 2021 <a href="#">Dr. Shams Ul Haq</a>. All Rights Reserved.</p>
+                <!-- Copyright Text End -->
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+        <a href="#" class="btn btn-default active"><i class="fa fa-long-arrow-up"></i></a>
+    </div>
+    <!-- Back To Top Button End -->
+
+    <!-- ==== Plugins Bundle ==== -->
+    <script src="{% static 'js/plugins.min.js' %}"></script>
+
+    <!-- ==== Main Script ==== -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
